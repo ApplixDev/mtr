@@ -1,0 +1,267 @@
+::-webkit-scrollbar {
+  width: 0.7em;
+  height: 0.55em;
+  background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(83, 83, 83);
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+body,html {
+  font-family: 'Lato', sans-serif;
+  color: #212121
+}
+
+.ml-auto, .mx-auto {
+  margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+  margin-right: auto!important;
+}
+
+.mb-2 {
+  margin-bottom: 2em!important;
+}
+
+.mb-5 {
+  margin-bottom: 5em!important;
+}
+
+#announcement {
+  margin: 0;
+  padding: 18px
+}
+
+#announcement i {
+  cursor: pointer
+}
+
+nav.transparent-navbar {
+  background-color: transparent!important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+nav.transparent-navbar.scrolled {
+  background-color: rgba(22, 46, 60, 0.78)!important;
+  transition: background-color 1s linear;
+}
+
+.brand-logo>img {
+  vertical-align: middle;
+  max-height: 54px!important;
+  padding: 0 5px 5px 0!important;
+}
+
+nav .brand-logo {
+  font-size: 1.5rem
+}
+
+nav ul a.active {
+  border-bottom: 2px solid rgb(231, 161, 96);
+  background-color: rgba(0,0,0,.3)!important;
+}
+
+nav ul a.btn.active {
+  height: 100%;
+  line-height: 58px
+}
+
+#banner {
+  min-height: 500px;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-image: url(../images/banners/main.jpg);
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #ff1a12;
+  margin-bottom: 2em;
+}
+
+.card.horizontal {
+  overflow: auto;
+  min-height: 114px;
+}
+
+.card.horizontal .avatar .circle {
+  margin: 2em 1em;
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  text-align: center;
+}
+
+.card.horizontal .avatar .initials {
+  color: white;
+  font-size: 1.5em;
+  line-height: 1;
+  position: relative;
+  top: 0.9em;
+}
+
+.card.horizontal .card-content {
+  padding: 1em 1em 1em 0;
+}
+
+.card.horizontal .card-content .card-title {
+  margin-bottom: 0;
+  line-height: unset;
+}
+
+.card .card-content .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.card.horizontal .card-content a {
+  font-size: 0.9rem;
+}
+
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+}
+
+.card:hover{
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80px;
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+}
+
+#scrollup {
+  display: none;
+}
+
+.btn.btn-gradient,.btn-large.btn-gradient {
+  background: #fdc830;
+  background: -webkit-linear-gradient(120deg, #fdc830, #f37335);
+  background: linear-gradient(120deg, #fdc830, #f37335);
+}
+
+.section-image{
+  display: block;
+}
+
+.section-subtitle,.section-title {
+  text-align: center;
+}
+
+p.section-subtitle {
+  font-size: 1.1rem;
+}
+
+.area {
+  line-height: .75rem;
+  padding-bottom: 10px;
+}
+
+.section {
+  padding: 5em 0;
+}
+
+.banner-section {
+  padding-top: 15em;
+}
+
+.banner-header {
+  background-color: rgba(12, 12, 12, 0.4);
+  padding: 2em 0;
+}
+
+.service-icon {
+  height: 7rem;
+  width: 7rem;
+  display: block;
+}
+
+.contact-icon {
+  background: url(../images/services/contact.png) no-repeat center top;
+}
+
+.stock-icon {
+  background: url(../images/services/stock.png) no-repeat center top;
+}
+
+.world-icon {
+  background: url(../images/services/world.png) no-repeat center top;
+}
+
+.amazon-icon {
+  max-height: 7rem;
+}
+
+footer.page-footer {
+  margin: 0;
+  color: inherit;
+  background-color: hsla(15,11%,71%,.2)!important
+}
+
+.page-footer .footer-copyright {
+  color: inherit
+}
+
+.cities {
+  padding-top: 10px
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+      width:85%
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  ul.side-nav a {
+      font-size:20px;
+      text-transform: uppercase
+  }
+
+  .section {
+      padding-top: 3em;
+      padding-bottom: 2em
+  }
+}
