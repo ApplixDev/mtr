@@ -62,12 +62,20 @@ nav.transparent-navbar.scrolled {
 
 .brand-logo>img {
   vertical-align: middle;
-  max-height: 54px!important;
+  max-height: 36px!important;
   padding: 0 5px 5px 0!important;
 }
 
 nav .brand-logo {
   font-size: 1.5rem
+}
+
+.side-nav .user-view .name{
+  font-size: 2em;
+}
+
+.side-nav .user-view .email{
+  font-size: 1.2em;
 }
 
 nav ul a.active {
@@ -249,10 +257,6 @@ footer.page-footer {
 
 .page-footer .footer-copyright {
   color: inherit
-}
-
-.cities {
-  padding-top: 10px
 }
 
 @media only screen and (min-width: 993px) {
